@@ -23,9 +23,14 @@ body {
 #navbar_menu {
         display: flex;
         list-style-type: none;
+        text-decoration: none;
 
         padding: 0px;
         margin: 0px;
+}
+
+#navbar_menu_left {
+        margin-left: 80px;
 }
 
 .menuitems {
@@ -33,6 +38,11 @@ body {
         margin-left: 40px;
         font-size: 28px;
         font-weight: bold;
+}
+
+.menuitems a {
+        text-decoration: none;
+        color: inherit;
 }
 
 #profile {
@@ -63,16 +73,33 @@ body {
         text-align: left;
 }
 
+#namepronoun {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        
+}
+
+#namepronoun h2 {
+        position: relative;
+        padding-top: 40px;
+        padding-left: 20px;
+        margin-bottom: 0px;
+        margin-top: 25px;
+}
+
 #profiletext h1 {
         font-size: 50px;
         text-decoration: overline;
         /*color: lightcoral;
         text-shadow: 2px 2px 4px blue;*/
-        margin-bottom: 40px;
+        margin-bottom: 30px;
+        margin-top: 40px;
 }
 
 #profiletext p {
         font-size: 20px;
+        margin-top: 10px;
 }
 
 .bullet {
